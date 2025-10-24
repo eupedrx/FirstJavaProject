@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import model.Aluno;
 
 public class DaoAluno {
-    private static ArrayList<Aluno> listaAlunos;
+    public static ArrayList<Aluno> listaAlunos;
 
     static {
         DaoAluno.listaAlunos = new ArrayList<>();

@@ -5,6 +5,16 @@ public class Aluno {
     private String nome;
     private Curso curso;
 
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "matricula=" + matricula +
+                ", nome='" + nome + '\'' +
+                ", curso=" + curso +
+                '}';
+    }
+
     public Aluno(int matricula, String nome, Curso curso) throws ModelException {
         this.setMatricula(matricula);
         this.setNome(nome);

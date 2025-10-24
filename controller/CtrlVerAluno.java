@@ -1,18 +1,19 @@
 package controller;
 
 import model.Aluno;
-import model.Curso;
-import model.ModelException;
 import model.dao.DaoAluno;
+import model.ModelException;
 import viewer.JanelaVerAluno;
+import java.util.List;
 
 public class CtrlVerAluno {
+    private DaoAluno daoAluno;
 
-    public void abrirJanela(){
-
-        JanelaVerAluno janela = new JanelaVerAluno();
-        janela.setVisible(true);
-
+    public CtrlVerAluno() {
+        this.daoAluno = new DaoAluno();
     }
 
+    public List<Aluno> obterTodos() {
+        return daoAluno.obterTodos();
+    }
 }
