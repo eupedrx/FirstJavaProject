@@ -46,6 +46,15 @@ public class JanelaVerAluno extends JFrame {
         JPanel painelBotoes = new JPanel();
         contentPane.add(painelBotoes, BorderLayout.SOUTH);
 
+        JButton btCancelar = new JButton("Cancelar");
+        btCancelar.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                setVisible(false);
+            }
+        });
+        btCancelar.setBounds(283, 176, 89, 23);
+        painelBotoes.add(btCancelar);
+
         List<Aluno> alunos = controlador.obterTodos();
         exibirAlunos(alunos);
 
