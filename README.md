@@ -1,7 +1,7 @@
 # 🧩 FirstJavaProject
 
 Projeto simples desenvolvido em **Java** com o objetivo de praticar os fundamentos da linguagem e o padrão **MVC (Model–View–Controller)**.  
-Inclui manipulação de classes, métodos, e interface gráfica básica com **Swing**, servindo como base para aprendizado e experimentação.
+Inclui manipulação de classes, métodos, e interface gráfica básica com **Swing**, persistência de dados aplicada com JPA em banco MySQL, servindo como base para aprendizado.
 
 ---
 
@@ -13,6 +13,7 @@ O **FirstJavaProject** foi criado como um primeiro passo na jornada de aprendiza
 - Criação e organização de classes;
 - Integração entre camadas do padrão MVC;
 - Uso de **Java Swing** para interfaces gráficas simples;
+- Uso de JPA para persistência de dados em banco MySql
 - Práticas de versionamento com Git e GitHub.
 
 ---
@@ -48,7 +49,7 @@ FirstJavaProject/
 
 3. Certifique-se de que o SDK do Java esteja configurado (Java 17 recomendado).
 
-4. Execute o arquivo principal (por exemplo, uma classe `Main.java` localizada em `viewer/` ou `controller/`).
+4. Execute o arquivo principal (classe `CtrlPrograma.java` localizada em `controller/`).
 
 ---
 
@@ -56,7 +57,7 @@ FirstJavaProject/
 
 - [X] Incluir um sistema de build com **Maven** ou **Gradle**  
 - [X] Refinar a interface Swing com ícones, fontes e layouts personalizados
-- [X] Realizar a persistência de dados em um banco relacional
+- [X] Implementar persistência de dados com **JDBC** ou **JPA**
 
 ---
 
@@ -76,14 +77,7 @@ Durante o desenvolvimento deste projeto, foram reforçados conceitos como:
 **Pedro Guilherme ([@eupedrx](https://github.com/eupedrx))**
 
 > Este projeto faz parte do aprendizado em desenvolvimento Java.  
-> Sugestões e melhorias são bem-vindas! ✨
+> Sugestões e melhorias são bem-vindas!
 
 ---
 
-## 📝 Licença
-
-Este projeto está sob a licença **MIT** — sinta-se livre para utilizar, estudar e modificar.
-
-```
-MIT License © 2025 Pedro Guilherme
-```
