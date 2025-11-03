@@ -9,7 +9,6 @@ import java.util.List;
 public class Curso implements Serializable {
     @Id
     @Column(name = "codigo")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int codigo;
     @Column(name = "nome", nullable = false)
     private String nome;

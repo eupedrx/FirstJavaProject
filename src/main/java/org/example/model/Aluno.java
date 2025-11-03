@@ -5,7 +5,6 @@ import java.io.Serializable;
 @Entity
 public class Aluno implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "matricula", nullable = false)
     private int matricula;
 
