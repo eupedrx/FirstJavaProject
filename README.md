@@ -25,8 +25,6 @@ FirstJavaProject/
 ├── controller/     # Controladores responsáveis pela lógica da aplicação
 ├── model/          # Classes de modelo (dados, entidades e lógica de negócio)
 ├── viewer/         # Interface gráfica com o usuário (Swing)
-├── out/            # Arquivos compilados (não devem ser versionados)
-├── Documents.iml   # Arquivo de configuração do IntelliJ IDEA
 └── README.md       # Este arquivo :)
 ```
 
@@ -59,11 +57,9 @@ FirstJavaProject/
 
 ## 🧩 Possíveis Melhorias Futuras
 
-- [ ] Criar um arquivo `.gitignore` para evitar versionar arquivos compilados  
-- [ ] Adicionar testes unitários com **JUnit**  
-- [ ] Incluir um sistema de build com **Maven** ou **Gradle**  
-- [ ] Documentar as classes com **Javadoc**  
-- [ ] Refinar a interface Swing com ícones, fontes e layouts personalizados  
+- [X] Incluir um sistema de build com **Maven** ou **Gradle**  
+- [X] Refinar a interface Swing com ícones, fontes e layouts personalizados
+- [X] Realizar a persistência de dados em um banco relacional
 
 ---
 
