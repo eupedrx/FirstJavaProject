@@ -27,9 +27,6 @@ FirstJavaProject/
 ├── viewer/         # Interface gráfica com o usuário (Swing)
 └── README.md       # Este arquivo :)
 ```
-
-> 💡 Recomenda-se adicionar um `.gitignore` para remover pastas como `out/` e arquivos `.iml`.
-
 ---
 
 ## 🖥️ Tecnologias Utilizadas
